@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Propietarios</title>
+  <link rel="stylesheet" href="../Propietarios/Assets/css/estilo_propietarios.css">
+</head>
+
+<body>
+	<nav>
+		<ol>
+			  <li>  
+			<li>
+			  <a class="inicio" href="../index/index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAWZJREFUSEvtlt1RAzEMhLUd0AGUQAeQCqADSAdQAaEC6ICkAzogdEAJ0EE6WGYz55vL2T7/XSYv0Vtylj5LtleCnchwIq5Vg0k+mtkOwGfN5qvAHfSjAy4BrEvhxeAR1PGK4UVgkrdm9hXJbgFgm5t5NpjkdQe9iATfmZngPznwLHAG1LGy4UkwSWWo8irjHFPGylybiNokuALqQEl4CqzLcpOTZmDNFsAi5hsFk9TbfKiEOrc1gGUoRhA8E3QS7oEjAtGYuHkCcwA+EjSobj04oUqtGTv/Xt2G4Ccze5uLEInzDOBd38alFtxJotreZeNG/szMdS610D3UAw8hJFvesAv1DUCNxbOpd3wGu3JtBufm/tN9CKncrKV+BbAa3Qf9fgkc5RncF6XmVh+91JqX7wLn5gk+yZjqbQDo4hW94yszux8omZw1zqjHHow13aSitfIZmtb+FoEbpTLpnhz2khEqF/wDjAypH4Vd3nsAAAAASUVORK5CYII=" alt=""></a>
+			</li>         
+				  
+		  <li>
+			Agencias
+			<!-- Menú desplegable -->
+			<ul>
+			  <li><a href="../Agencias/agencia.html">Formulario</a></li>
+	  
+			  <li id="fichas-agenciaa"><a href="../Agencias/fich-agencia1.html">Ficha</a>
+			  
+			  <li><a href="../Agencias/agencia-listado.html">Listado</a></li>
+			</ul>
+		  </li>
+		   <!------------------------------------------------------------------------->
+		  <li>
+			Inquilinos
+			
+			<ul>
+			  <li><a href="../Inquilinos/inquilinos.html">Formulario</a></li>
+			  <li><a href="../Inquilinos/fich-inquilino1.html">Ficha</a></li>
+			  <li><a href="../Inquilinos/inquilino-listado.html">Listado</a></li>
+			</ul>
+		  </li>
+		  <li>
+			Propietarios
+		  <!------------------------------------------------------------------------->    
+			<ul>
+			  <li><a href="../Propietarios/propietarios.html">Formulario</a></li>
+			  <li><a href="../Propietarios/fich-propietario1.html">Ficha</a></li>
+			  <li><a href="../Propietarios/propietarios-listado.html">Listado</a></li>
+			</ul>
+		  </li>
+		  <li>
+			Viviendas
+		  <!------------------------------------------------------------------------->              
+		  <ul>
+			<li><a href="../viviendas/viviendas.html">Formulario</a></li>
+			<li><a href="../viviendas/fich-vivienda1.html">Ficha</a></li>
+			<li><a href="../viviendas/listado-vivienda.html">Listado</a></li>
+		  </ul>
+		  </li>
+		  <li>
+			Contacto
+        <!------------------------------------------------------------------------->
+        <ul>
+          <li><a href="../Contacto/contacto-formulario.html">Formulario</a></li>
+        </ul>
+      </li>
+		  <!------------------------------------------------------------------------->
+		  
+		</ol>
+	  </nav>
+
+  <h1>Formulario Propietario</h1>
+  <form action="guardar_inquilino.php" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required><br><br>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required><br><br>
+
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" required><br><br>
+
+    <label for="mail">Mail:</label>
+    <input type="email" id="mail" name="mail" required><br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="submit" value="Delete">
+  </form>
+  <footer>
+	<address>
+		Martin <br>
+		Cristobal Campanario <br>
+		8239 <br>
+		martincristobalcampanrio_8239@escuelaces.net
+	</address>
+</footer>
+</body>
+
+</html>

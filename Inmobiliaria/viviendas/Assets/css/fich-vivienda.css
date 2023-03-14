@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #6da7ff;
+  background-size: cover;
+
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 10%;
+}
+.inicio:hover {
+  cursor: pointer;
+}
+nav {
+    background-color: rgb(161, 34, 121);
+    border-radius: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    color: #edeaea;   
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    
+    
+  }
+  
+  nav li ul {
+    display: none;
+    position: absolute;
+    top: 19.5px;
+    border-radius: 1rem;
+    background-color: #edeaea;
+    padding: 10px;
+    border: 1px solid #f8e3e3;
+  
+  }
+  
+  nav li:hover ul {
+    display: block;
+  }
+  
+  nav li ul li {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  nav li ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav li ul li a:hover {
+    text-decoration: underline;
+  }
+
+.indiceficha {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.fichas {
+    margin: 0 20px;
+    margin-top: 2%;
+    max-width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #4a4a4a;
+}
+
+
+
+
+
+.containerficha {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15%;
+  margin-right: 20%;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #f2f2f2, #f57a7a);
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+.col{
+  display: flex;
+  margin: auto;
+  margin-left: 40%;
+}
+.imagen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna-1{
+  text-align: center;
+  border-radius: 2rem;
+  
+}
+
+.columna-2 {
+  background-image: linear-gradient(to bottom, #66c5eb, #e5ff9d);
+  text-align: center;
+  padding: 2rem;
+  line-height: 2rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  width: 10rem;
+}
+
+
+.columna-3 {
+  background-image: linear-gradient(to bottom, #e5ff9d, #66c5eb);
+  text-align: left;
+  padding: 2rem;
+  line-height: 2rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  width: 10rem;
+}
+
+footer {
+  margin-top: 150px;
+  background-color: #f69595;
+  text-align: center;
+  font-size: 14px;
+  color: #454545;
+}

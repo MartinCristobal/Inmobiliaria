@@ -1,0 +1,61 @@
+Entidades
+===========
+Agencias:
+    ID (unsigned int not null) ==>required number min=1
+    CIF (varchar(10) NOT NULL) ==> type"text"; length="10" requiered= "true"
+        <input type ="text" id= "cif" required minlength="9" maxlength= "10"
+        size= "10   "
+    Direccion
+    Telefono
+    Email
+    Nombre
+
+Viviemdas
+    ID 
+    CP
+    Localidad
+    Calle 
+    Numero
+    Estancias 
+    Aseos
+    Dormitorios 
+    Tipo de cocina 
+    Terraza(boolean)
+    Nueva(boolean)
+    Opcion a compra
+    Metros Cuadrados
+    Precio de Compra 
+    Antiguedad 
+TIPOS
+=========================
+    -Piso 
+        Garaje comunitario 
+        terraza 
+    -Chalet
+        Jardin (boolean/m2)
+        Garaje
+
+Propietarios
+===================
+    ID 
+    NIF 
+    Nombre 
+    Apellidos 
+    Telefono
+    Direccion
+    Email 
+
+Alquiler 
+==================
+    ID  
+    F. Inicio 
+    F. Fin 
+    Importe mensual 
+    Fianza 
+    F. Firma
+
+Comentarios 
+     idComentario
+     idVivienda (FK)
+     IdInquilino (FK)
+

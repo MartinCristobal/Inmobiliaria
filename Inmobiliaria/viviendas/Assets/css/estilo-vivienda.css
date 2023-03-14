@@ -1,0 +1,170 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #6da7ff;
+  background-size: cover;
+
+}
+  h1 {
+    width: 30%;
+    text-align: center;
+    margin:auto;
+    margin-top: 10%;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: rgb(161, 34, 121);
+    color: #FFFFFF;
+    font: 120%;
+    padding: 0.5em;
+    
+  }
+  .inicio:hover {
+    cursor: pointer;
+  }
+  nav {
+    background-color: rgb(161, 34, 121);
+    border-radius: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    color: #edeaea;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  nav li ul {
+    display: none;
+    position: absolute;
+    top: 19.5px;
+    border-radius: 1rem;
+    background-color: #edeaea;
+    padding: 10px;
+    border: 1px solid #f8e3e3;
+  
+  }
+  
+  nav li:hover ul {
+    display: block;
+  }
+  
+  nav li ul li {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  nav li ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav li ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
+    background-color: rgb(161, 34, 121);
+    padding: 40px;
+    border-radius: 60px;
+    font: 120%;      
+      
+  }
+  
+  label {
+    
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-color: #000000;
+    
+    
+  }
+ 
+input[type="text"],
+input[type="email"],
+input[type="number"], 
+input[type="tel"]
+ {
+width: 100%;
+padding: 10px;
+border-radius: 3px;
+border-color: #000000;
+  }   
+
+  input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    border-color: #000000;
+
+  }
+  .terraza{
+    width: 100%;
+    padding: 10px;
+    border-color: #000000;
+
+
+  }
+  
+    
+  input[type="submit"] {
+    background-color: rgb(161, 34, 121);
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  
+  input[type="submit"] {
+    border-radius: 400px 200px 200px 400px;
+    background-color: rgb(238, 121, 201);
+}
+
+  input[type="delete"]:hover {
+    background-color: #50004c;
+    
+  }
+
+  input:invalid {
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  input[type="delete"] {
+    border-radius: 200px 400px 400px 200px;
+    background-color: rgb(238, 121, 201);
+        
+  }
+  select {
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  footer {
+    background-color: #f69595;    
+    text-align: center;
+    font-size: 14px;
+    color: #454545;
+  }
+  
+  address {
+    margin: 0;
+    margin-top: 10%;
+    padding: 0;
+    font-style: normal;
+  }
+  
+  
